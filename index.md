@@ -56,6 +56,7 @@ For your first milestone, describe what your project is and how you plan to buil
   # Starter Project: Retro Game Soldering
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 For my starter project, I built a retro handheld game console using a soldering kit. This project took me 6-7 continuous working hours. This device allows me to play classic video games such as Tetris, Snake, and a few others programmed into the system. I learned the basics of soldering of a spare and empty PCB Prited Circut Board and how not to create a short which would be a faulty solder. When building this project, I practiced my soldering skills and I got a lot of practice learning how to solder all the little pieces together. Furthermore, when building this project, I ran into the struggle of a improper solder from a wire connecting the battery to a the main game board which would power the whole system. I fixed this issue by desoldering copper wick and soldered this to the main board with more detail which was caused the system to work later on.      
 
 # Schematics 
