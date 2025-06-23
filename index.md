@@ -93,7 +93,7 @@ To watch the BSE tutorial on how to create a portfolio, click here.
 
 <img src= "schematics-_WNfuLqZO8t.png" width="750" height="900">
 
-<img src= "_6xs0EiI667 (1).png" width="750" height="900">
+<img src= "_6xs0EiI667(1).png" width="750" height="900">
 
 
  
