@@ -12,7 +12,8 @@ You should comment out all portions of your portfolio that you have not complete
 | David T | Gunn High School | Engineering | Incoming Junior
 
 
-![Headstone Image](DavidT.jpg)
+<img src="![Headstone Image](DavidT.jpg)" width="150" height="280">
+
   
 # Final Milestone
 
