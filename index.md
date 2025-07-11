@@ -65,6 +65,7 @@ I need to check if my OLED display works with my ESP32. As a result, I will most
 
 # Schematics 
  <img src= "Screen Shot 2025-07-11 at 2.30.52 PM.png" width="700" height="">
+ Schemnatic of my final project 
 
 <!--
 # Code
