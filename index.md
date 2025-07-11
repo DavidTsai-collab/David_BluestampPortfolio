@@ -16,15 +16,13 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GhcfAWI-Z7g?si=xb-wTWlhdn3fZ-kh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Introduction: 
-For my second milestone, I ran test code through the system to check if the system actually works. It actually works except that it doesn't display text in white, only in yellow and blue as those are the screen's restrictions. My second milestone was very software intensive and did not require me to do anything with hardware. For this milestone, I found test code which uses ESP-32 and controls the 0.96 OLED display. When I downloaded all of the libraries and ran the code, it worked flawlessly. I then explained the components like the ESP-32 and the connection protocols.
 
 ### Explanation:
-The system sits on a breadboard which allows connections of circuits and systems to be connected. GND and VCC allow a transfer of power to the screens and CPU itself. SCL and SDA connections allow the communication of data between the CPU or the ESP32 to communicate with the OLED screen. This uses I2C(I squared c protocol) using ports SCL and SDA. The Serial Clock (SCL) is the clock line that synchronizes data transfers between devices. It turns on and off at a constant rate defining the timing intervals. This ensures accurate tracking of the number of bits transmitted over a given period. The SDA or (Serial data) runs in tandem with the SCL so the SDA knows what time interval it is broadcasting in. The SDA connection transfers data or bits from the CPU to the OLED display. Both SCL and SDA run in digital sequence displaying only on or off. This is a controller-target relationship as the CPU tells the screen what to display and the target or the screen, has to follow the commands of the microcontroller. The other two connections which are GND and VCC which is how the screen gets power to display things. The ESP32 is a series of microcontrollers that run in analog, it has the ability to connect a system to wifi and bluetooth through a radio controller. This allows connection with the internet. It has two 32 bit Xtensa LX6 which runs up to 240 Megahertz and it has 512 kilobytes of SRAM that runs alongside with other types of ram. The  ESP32 also has the ability to connect to wifi allowing it to access the web. 
 
 ### Challenges:
-A challenge I faced while completing my second milestone was collecting the right percentage change. I thought that I needed today's closing price to calculate my time change. However, I actually needed to use yesterday's closing price for a set closing price as today's closing hasn't actually happened, therefore the closing price today was the same as the live price. This led to a 24hr price change of 0%. Additionally, I compared my 24 hr price change with Coindesk's 24 hr price change and we got two different results. I believe that Coindesk uses a slightly delayed price to calculate their API compared to my API causing a difference in percentage change. This took me two days of work to solve which was rather bothersome. 
 
-For my final milestone, I have completed integrating Coindesk's API into my 
+### Takeaways: 
+
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
@@ -64,10 +62,10 @@ I stuck the ESP32 and the OLED display into the breadboard while following the i
 ### Future Progress:
 I need to check if my OLED display works with my ESP32. As a result, I will most likely use some sort of test code on the web just to check that my system works overall. I think this is part of my second milestone alongside learning what the components of my system actually are and what they do. My plan to complete my project is to make sure my system works with test code. If my system works, I think I will start to integrate actual code to track live data of Bitcoin. 
 
-<!--
+
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
-
+<!--
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
