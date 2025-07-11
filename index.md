@@ -8,7 +8,7 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 | David T | Gunn High School | Mechanical Engineering | Incoming Junior
 
 
-<img src= "DavidT.jpg" width="225" height="300">
+<img src= "DavidT.jpg" width="" height="600">
 
 <!-- 
 # Final Milestone
