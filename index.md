@@ -99,7 +99,11 @@ To watch the BSE tutorial on how to create a portfolio, click here.
 
 
 [Schematic for Retro Game Soldering kit](https://www.hackster.io/lewisdiy/build-your-own-game-console-kit-play-the-classic-games-5ca95f)
+
 [Image of Retro Game Soldering kit components](https://www.hackster.io/lewisdiy/build-your-own-game-console-kit-play-the-classic-games-5ca95f)
+
 [Bitcoin Price comparison ](https://www.coindesk.com/price/bitcoin)
+
 [Live Price API from Coindesk](https://developers.coindesk.com/documentation/legacy/Price/SingleSymbolPriceEndpoint)
-[24 Hour price change API from Coindesk]([url](https://developers.coindesk.com/documentation/legacy/Historical/dataHistoday))
+
+[24 Hour price change API from Coindesk]([https://developers.coindesk.com/documentation/legacy/Historical/dataHistoday])
