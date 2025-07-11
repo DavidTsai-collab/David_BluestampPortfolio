@@ -8,7 +8,7 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 | David T | Gunn High School | Mechanical Engineering | Incoming Junior
 
 
-<img src= "DavidT.jpg" width="" height="600">
+<img src= "DavidT.jpg" width="" height="500">
 
 <!-- 
 # Final Milestone
@@ -46,7 +46,7 @@ It also has bluetooth allowing data transfers without physically connecting to o
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Wf0zbqYmePA?si=O_YHtgXLAGattQjm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Introduction: 
+### Introduction:
 For my portable crypto tracker, I needed to physically install a controller so that the whole system knows what to run and what to do. This controller was the ESP-32, this is the brains of the whole system. On this board, there is an integrated power supply where it accepts ay USB-C cable connection providing it with power. The OLED display is a 0.96 inch display which can only provide color in yellow and blue. I connected the ESP-32 and OLED display with wires that allow power and data to be transferred from the ESP-32 to the OLED display. 
 
 ### Explanation:
