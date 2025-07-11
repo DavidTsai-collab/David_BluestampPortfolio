@@ -13,10 +13,9 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 <!-- 
 # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GhcfAWI-Z7g?si=xb-wTWlhdn3fZ-kh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+For my final milestone, I have completed integrating Coindesks API into my 
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
@@ -47,13 +46,13 @@ It also has bluetooth allowing data transfers without physically connecting to o
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Wf0zbqYmePA?si=O_YHtgXLAGattQjm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Introduction: 
-For my portable crypto tracker, I needed to physically install a controller to the whole system knows what to run and what to do. This controller was the ESP-32, this is the brains of the whole system. On this board, there is an integrated power supply where it accepts an USB-C cable connection providing it with power. The OLED display is a 0.96 inch display which projects only can provide color in yellow and blue. I connected the ESP-32 and OLED display with wires that allow power and data to be transfered from the ESP-32 to the OLED display. 
+For my portable crypto tracker, I needed to physically install a controller so that the whole system knows what to run and what to do. This controller was the ESP-32, this is the brains of the whole system. On this board, there is an integrated power supply where it accepts ay USB-C cable connection providing it with power. The OLED display is a 0.96 inch display which can only provide color in yellow and blue. I connected the ESP-32 and OLED display with wires that allow power and data to be transferred from the ESP-32 to the OLED display. 
 
 Explanation:
 I stuck the ESP-32 and the OLED display into the breadboard while following the instructions of the schematic. I then connected the wires by using the schematic as a guide, however, I found an error as the schematic had an extra row which I didn't have so I placed a wire over a bit which allowed the power to flow and it avoided a possible short. The blue and green cables provide information from the ESP-32 to the OLED display while the red and black and a single blue cable provide power flowing in an orderly way so the whole system doesn't short. The ESP-32 board also provides power for the whole board and to the display. A challenge I faced while putting together the project was that the breadboard did not have enough holes so assembling the components was slightly misaligned. As a result, the data transfer cable had to be stacked next to eachother which was slightly different than the provided schematic.
 
 Future Progress:
-I need to check if my OLED display works with my ESP-32. As a result, I will most likey use some sort of test code on the web just to check that my system works overall. I think this is part of my second milestone along side learning what the components of my system actually are and what they do. My plan to complete my project is to make sure my system works with test code. If my system works, I think I will start to integrate actual code in tracking live data of bitcoin. 
+I need to check if my OLED display works with my ESP-32. As a result, I will most likely use some sort of test code on the web just to check that my system works overall. I think this is part of my second milestone alongside learning what the components of my system actually are and what they do. My plan to complete my project is to make sure my system works with test code. If my system works, I think I will start to integrate actual code to track live data of Bitcoin. 
 
 <!--
 # Schematics 
@@ -97,11 +96,11 @@ To watch the BSE tutorial on how to create a portfolio, click here.
 
  <iframe width="560" height="315" src="https://www.youtube.com/embed/DP_EGq8dyFk?si=OWw0ru3kLL2O6_Ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-  For my starter project, I built a retro handheld game console using a soldering kit. This project took me 6-7 continuous working hours. This device allows me to play classic video games such as Tetris, Snake, and a few others programmed into the system. I learned the basics of soldering of a spare and empty PCB Prited Circut Board and how not to create a short which would be a faulty solder. When building this project, I practiced my soldering skills and I got a lot of practice learning how to solder all the little pieces together. Furthermore, when building this project, I ran into the struggle of a improper solder from a wire connecting the battery to a the main game board which would power the whole system. I fixed this issue by desoldering copper wick and soldered this to the main board with more detail which was caused the system to work later on. The project consisted of three AAA batteries to power the whole system or an optional port could be used to power the system.   
+For my starter project, I built a retro handheld game console using a soldering kit. This project took me 6-7 continuous working hours. This device allows me to play classic video games such as Tetris, Snake, and a few others programmed into the system. I learned the basics of soldering of a spare and empty PCB Printed Circuit Board and how not to create a short which would be a faulty solder. When building this project, I practiced my soldering skills and I got a lot of practice learning how to solder all the little pieces together. Furthermore, when building this project, I ran into the struggle of an improper solder from a wire connecting the battery to the main game board which would power the whole system. I fixed this issue by using desoldering wick to remove the old solder and then soldered the wire to the main board with more detail, which allowed the system to work flawlessly. The project consisted of three AAA batteries to power the whole system or an optional port could be used to power the system.   
 
-<img src= "schematics-_WNfuLqZO8t.png" width="750" height="">
+<img src= "schematics-_WNfuLqZO8t.png" width="650" height="">
 
-<img src= "71WtWavVOmL.jpg" width="750" height="">
+<img src= "71WtWavVOmL.jpg" width="650" height="">
 
 
 [Schematic for Retro Game Soldering kit](https://www.hackster.io/lewisdiy/build-your-own-game-console-kit-play-the-classic-games-5ca95f)
@@ -113,3 +112,5 @@ To watch the BSE tutorial on how to create a portfolio, click here.
 [Live Price API from Coindesk](https://developers.coindesk.com/documentation/legacy/Price/SingleSymbolPriceEndpoint)
 
 [24 Hour price change API from Coindesk](https://developers.coindesk.com/documentation/legacy/Historical/dataHistoday)
+
+[Bitcoin ticker ESP-32](https://github.com/AndrewBudziszek/bitcoin-ticker-esp32/tree/main)
