@@ -99,9 +99,9 @@ To watch the BSE tutorial on how to create a portfolio, click here.
 
 For my starter project, I built a retro handheld game console using a soldering kit. This project took me 6-7 continuous working hours. This device allows me to play classic video games such as Tetris, Snake, and a few others programmed into the system. I learned the basics of soldering of a spare and empty PCB Printed Circuit Board and how not to create a short which would be a faulty solder. When building this project, I practiced my soldering skills and I got a lot of practice learning how to solder all the little pieces together. Furthermore, when building this project, I ran into the struggle of an improper solder from a wire connecting the battery to the main game board which would power the whole system. I fixed this issue by using desoldering wick to remove the old solder and then soldered the wire to the main board with more detail, which allowed the system to work flawlessly. The project consisted of three AAA batteries to power the whole system or an optional port could be used to power the system.   
 
-<img src= "schematics-_WNfuLqZO8t.png" width="650" height="">
+<img src= "schematics-_WNfuLqZO8t.png" width="550" height="">
 
-<img src= "71WtWavVOmL.jpg" width="650" height="">
+<img src= "71WtWavVOmL.jpg" width="550" height="">
 
 
 [Schematic for Retro Game Soldering kit](https://www.hackster.io/lewisdiy/build-your-own-game-console-kit-play-the-classic-games-5ca95f)
