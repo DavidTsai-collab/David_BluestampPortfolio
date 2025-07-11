@@ -27,7 +27,8 @@ For your final milestone, explain the outcome of your project. Key details to in
 # Second Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Vj-Z61Cwg_E?si=H52o0yMvw7W2TUA9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-Introduction: 
+
+### Introduction: 
 For my second milestone, I ran test code through the system to check if the system actually works. It actually works except that it doesn't display text in white, only in yellow and blue as those are the screens restrictions. My second milestone was very software intensive and did not require me to do anything with hardware. For this milestone, I found test code which uses ESP-32 and controlls the 0.96 OLED display. When I downloaded all of the libraries and ran the code, it worked flawlessly. I then explained the componenets like the ESP-32 and the connection protocols.
 
 ### Explanation:
