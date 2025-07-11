@@ -106,4 +106,4 @@ To watch the BSE tutorial on how to create a portfolio, click here.
 
 [Live Price API from Coindesk](https://developers.coindesk.com/documentation/legacy/Price/SingleSymbolPriceEndpoint)
 
-[24 Hour price change API from Coindesk]([https://developers.coindesk.com/documentation/legacy/Historical/dataHistoday])
+[24 Hour price change API from Coindesk](https://developers.coindesk.com/documentation/legacy/Historical/dataHistoday)
