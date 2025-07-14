@@ -17,7 +17,7 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GhcfAWI-Z7g?si=xb-wTWlhdn3fZ-kh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Introduction: 
-For my thrid milestone, I needed to add the live price of Bitcoin to my system and I had to display that data live on my screen. On this milestone, I also had to add a historical Json array. This milestone was the most software extensive as I had to write program to actually broadcast the data of the price and the change. This adds on to the second milestone as I started to display live data of Bitcoin prices in USD and started to calculate the live percentage change of Bitcoin prices. 
+For my thrid milestone, I needed to add the live price of Bitcoin to my system and had to display that data live on my screen. On this milestone, I also had to add a historical cost to compare to the current cost to find the percentage change. This milestone was the most software extensive in my project, as I had to write program to actually broadcast the data of the price and the percentage change. This adds on to the second milestone as I started to display live data of Bitcoin prices in USD and started to calculate the live percentage change of Bitcoin prices. 
 ### Explanation:
 
 ### Challenges:
@@ -66,6 +66,7 @@ I need to check if my OLED display works with my ESP32. As a result, I will most
 
 # Schematics 
  <img src= "Screen Shot 2025-07-11 at 2.30.52 PM.png" width="700" height="">
+ 
  Schemnatic of my final project 
 
 <!--
