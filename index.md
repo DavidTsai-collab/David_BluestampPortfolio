@@ -70,10 +70,6 @@ I need to check if my OLED display works with my ESP32. As a result, I will most
  Schemnatic of my final project 
 
 
-# Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
-
-
 # Bill of Materials
 
 | **Part** | **Note** | **Price** | **Link** |
@@ -83,6 +79,8 @@ Here's where you'll put your code. The syntax below places it into a block of co
 |1 PCS Breadboard 830 Point Solderless Prototype PCB Board Kit for Arduino Proto Shield Distribution Connecting Blocks | This item is a platform allowing power to transfer and it allows the ESP-32 and the OLED display a place to stay on. | $3.99| <a href="https://www.amazon.com/California-JOS-Breadboard-Solderless-Distribution/dp/B0BRQX6G3T/ref=asc_df_B0BRQX6G3T?mcid=3f02ed1993843f2c90966ba247f34f63&hvocijid=5747427556118091865-B0BRQX6G3T-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=721245378154&hvpos=&hvnetw=g&hvrand=5747427556118091865&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-2281435177898&th=1"> Link </a> |
 |40 PCS 20 CM (8 inch) Breadboard Jumper Wires Length Optional Dupont Wire Assorted Kit Male to Male Multicolored Ribbon Cables | This item is used for connecting power from the ESP-32 to the screen. It also allows data to be transfered from the ESP-32 to the OLED | $3.99| <a href="https://www.amazon.com/California-JOS-Breadboard-Optional-Multicolored/dp/B0BRTJQZRD/ref=asc_df_B0BRTJQZRD?mcid=5398d876283e3735ba72e24ca978b618&hvocijid=3703053914025575986-B0BRTJQZRD-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=721245378154&hvpos=&hvnetw=g&hvrand=3703053914025575986&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-2281435179098&th=1"> Link </a> |
 
+# Code
+My c++ code for my crypto tracker modified to use coindesks V2. 
 ```c++
 https://www.markdownguide.org/extended-syntax/#include <Adafruit_SSD1306.h>
 #include <WiFi.h>
