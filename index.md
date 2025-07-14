@@ -4,6 +4,7 @@
 Bitcoin is the world's first decentralized digital currency, operating on a secure, public ledger known as the blockchain. It enables peer-to-peer transactions globally, free from traditional financial institutions. What if we could keep track of the price constantly without having to open a computer, a device which sole purpose is to track the live price of Bitcoin. This device I built allows you to keep track of the price and percentage change constantly without having to open another device. 
 
 
+
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | David T | Gunn High School | Mechanical Engineering | Incoming Junior
