@@ -285,20 +285,15 @@ void printCenter(const String buf, int x, int y) {
 ```
 
 
-<!--
-# Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
-
-To watch the BSE tutorial on how to create a portfolio, click here.
--->
 # Starter Project: Retro Game Soldering
 
  <iframe width="560" height="315" src="https://www.youtube.com/embed/DP_EGq8dyFk?si=OWw0ru3kLL2O6_Ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For my starter project, I built a retro handheld game console using a soldering kit. This project took me 6-7 continuous working hours. This device allows me to play classic video games such as Tetris, Snake, and a few others programmed into the system. I learned the basics of soldering of a spare and empty PCB Printed Circuit Board and how not to create a short which would be a faulty solder. When building this project, I practiced my soldering skills and I got a lot of practice learning how to solder all the little pieces together. Furthermore, when building this project, I ran into the struggle of an improper solder from a wire connecting the battery to the main game board which would power the whole system. I fixed this issue by using desoldering wick to remove the old solder and then soldered the wire to the main board with more detail, which allowed the system to work flawlessly. The project consisted of three AAA batteries to power the whole system or an optional port could be used to power the system.   
+### Introduction: 
+For my starter project, I built a retro handheld game console using a soldering kit. This project took me 6-7 continuous working hours. This device allows me to play classic video games such as Tetris, Snake, and a few others programmed into the system. I learned the basics of soldering of a spare and empty PCB Printed Circuit Board and how not to create a short which would be a result of a faulty solder. 
+
+### Summary and Challenges:
+When building this project, I practiced my soldering skills and I got a lot of practice learning how to solder all the little pieces together. Furthermore, when building this project, I ran into the struggle of an improper solder from a wire connecting the battery to the main game board which would power the whole system. I fixed this issue by using desoldering wick to remove the old solder and then soldered the wire to the main board with more detail, which allowed the system to work flawlessly. The project consisted of three AAA batteries to power the whole system or an optional port could be used to power the system.   
 
 <img src= "schematics-_WNfuLqZO8t.png" width="550" height="">
 
