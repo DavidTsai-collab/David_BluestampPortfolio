@@ -19,7 +19,7 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 ### Introduction: 
 For my thrid milestone, I needed to add the live price of Bitcoin to my system and had to display that data live on my screen. On this milestone, I also had to add a historical cost to compare to the current cost to find the percentage change. This milestone was the most software extensive in my project, as I had to write program to actually broadcast the data of the price and the percentage change. This adds on to the second milestone as I started to display live data of Bitcoin prices in USD and started to calculate the live percentage change of Bitcoin prices. 
 ### Explanation:
-
+I added a new URL for live price of Bitcoin because coindesk added a new version of their API. So I had to replace it with a V2 url. I had to change most of my codes API to access the same data under a different name. This was a lot of work as not all of the previous code was compatible with the new coindesk API. Additionally, I had to update and change my data array to collect a different value from the updated Json. In addition, I had to rewrite the percentage change values to adjust for the new definitions of the new API. I used the same formula, but I had to replace the new values from coindesk to make the formula work. In addition to these new updates, I had to display new API's using serial.print or serial.println to check that my program was returning the correct values. 
 ### Challenges:
 
 ### Takeaways: 
