@@ -11,7 +11,7 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 
 <img src= "DavidT.jpg" width="" height="500">
 
-<!-- 
+
 # Final Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GhcfAWI-Z7g?si=xb-wTWlhdn3fZ-kh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -19,19 +19,12 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 ### Introduction: 
 For my thrid milestone, I needed to add the live price of Bitcoin to my system and had to display that data live on my screen. On this milestone, I also had to add a historical cost to compare to the current cost to find the percentage change. This milestone was the most software extensive in my project, as I had to write program to actually broadcast the data of the price and the percentage change. This adds on to the second milestone as I started to display live data of Bitcoin prices in USD and started to calculate the live percentage change of Bitcoin prices. 
 ### Explanation:
-I added a new URL for live price of Bitcoin because coindesk added a new version of their API. So I had to replace it with a V2 url. I had to change most of my codes API to access the same data under a different name. This was a lot of work as not all of the previous code was compatible with the new coindesk API. Additionally, I had to update and change my data array to collect a different value from the updated Json. In addition, I had to rewrite the percentage change values to adjust for the new definitions of the new API. I used the same formula, but I had to replace the new values from coindesk to make the formula work. In addition to these new updates, I had to display new API's using serial.print or serial.println to check that my program was returning the correct values. As this milestone was heavily software intensive, I spent a majority of the time rewriting the code and debugging to adjust for the new API provided by coindesk. I also adjusted for the new 24 hour change by using a different timestamp.
+I added a new URL for live price of Bitcoin because coindesk added a new version of their API. So I had to replace it with a V2 url. I had to change most of my codes API to access the same data under a different value. This was a lot of work as not all of the previous code was compatible with the new coindesk API. Additionally, I had to update and change my data array to collect a different value from the updated API. In addition, I had to rewrite the percentage change values to adjust for the new definitions of the new API. I used the same formula, but I had to replace the new values from coindesk to make the formula work. In addition to these new updates, I had to display new API's using serial.print or serial.println to check that my program was returning the correct values. As this milestone was heavily software intensive, I spent a majority of the time rewriting the code and debugging to adjust for the new API provided by coindesk. I also adjusted for the new 24 hour change by using a different timestamp.
 ### Challenges:
 I spent two whole days to rewrite my code as I had a logical error where I miscalculated what API I actually needed to use for my project so the the 24 hours change would display 0% price change. This happened because coindesks used yesterdays time, however the price was updating with the live price providing very little price change. I spent two days looking at the API because the API said it was yesterdays date and closing price however, it was using todays closing price in my code which led to me debugging for two days straight until I found my mistake. To adjust for this time difference, I used the closing price for the day before which solved my 24 hour change with no problem. Another issue I found was that my 24 hour change was different from coindesk's 24 hour change as they used a slightly longer time of 26 ish hours and they use a different Json to get a more accurate 24 hours price change. This indicated a slightly inacurate 24 hour price change which I provided but it wasn't as accurate as coindesks true API. 
 ### Takeaways: 
-Throughout this project, I learned so many things such as how each component of the system works or how to use a Json and what it is and its uses. Additionally, I learned what an ESP32 does and the protocol that the ESP32 and the OLED screen use to communicate with each other. I learned how specific coding has to be and how logical I have to be to be able to code. 
+Throughout this project, I learned so many things such as how each component of the system works or how to use a Json and what it is and its uses. Additionally, I learned what an ESP32 does and the protocol that the ESP32 and the OLED screen use to communicate with each other. I learned how specific coding has to be and how logical I have to be to be able to code. I learned the interval that the internal clock runs on within the ESP32 and the ESP32 specs and why its a favorite microcontroller to use. On the other hand, I learned the functions of the software components such as what an API is and how to utilize this component. I learned that the data array can come back as an object, null, int, boolean, etc. Overall, I learned that persevering through issues may not lead to the desired answer but along the way you still will learn something so its still worth it to try.  
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
-
--->
 
 # Second Milestone
 
