@@ -311,3 +311,5 @@ When building this project, I practiced my soldering skills and I got a lot of p
 [24 Hour price change API from Coindesk](https://developers.coindesk.com/documentation/legacy/Historical/dataHistoday)
 
 [Bitcoin ticker ESP32](https://github.com/AndrewBudziszek/bitcoin-ticker-esp32/tree/main)
+
+[Bitcoin tracker Schematic](https://wokwi.com/projects/305568836183130690)
