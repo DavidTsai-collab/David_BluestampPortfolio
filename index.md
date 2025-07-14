@@ -1,8 +1,8 @@
 # Portable Crypto Tracker
-<!--
 
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
--->
+
+Bitcoin is the world's first decentralized digital currency, operating on a secure, public ledger known as the blockchain. It enables peer-to-peer transactions globally, free from traditional financial institutions. What if we could keep track of the price constantly without having to open a computer, a device which sole purpose is to track the live price of Bitcoin. This device I built allows you to keep track of the price and percentage change constantly without having to open another device. 
+
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
