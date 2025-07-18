@@ -23,7 +23,7 @@ I added a new URL for live price of Bitcoin because Coindesk added a new version
 ### Challenges:
 I spent two whole days to rewriting my code as I had a logical error where I miscalculated what API I actually needed to use for my project so the the 24-hour change would display 0% price change. This happened because Coindesk uses yesterdays time, however the price was updating with the live price providing very little price change. I spent two days looking at the API because the API said it was yesterdays date and closing price. In fact, it was using todays closing price in my code which led to me debugging for two days straight until I found my mistake. To adjust for this time difference, I used the closing price from the day before which solved my 24-hour change with no problem. Another issue I found was that my 24-hour change was different from Coindesk's 24-hour change as they used a slightly longer time of 26 ish hours and they use a different JSON to get a more accurate 24-hours price change. This created a slightly inaccurate 24-hour price change which provided by my code and it wasn't as accurate as Coindesks true API. 
 ### Takeaways: 
-Throughout this project, I learned so many things such as how each component of the system works or how to use a JSON and what it is and its uses. Additionally, I learned what an ESP32 does and the protocol that the ESP32 and the OLED screen use to communicate with each other. I also learned how specific coding has to be and how logical I have to be to be able to code. I learned the interval that the internal clock runs on within the ESP32 and the ESP32 specs, and why its a favorite microcontroller to use. On the other hand, I learned the functions of the software components such as what an API is and how to utilize this component. I learned that the data array can come back as an object, null, int, boolean, etc. Overall, I learned that persevering through issues may not lead to the desired answer but along the way you still will learn something so its still worth it to try.  
+Throughout this project, I learned so many things such as how each component of the system works or how to use a JSON and what it is and its uses. Additionally, I learned what an ESP32 does and the protocol that the ESP32 and the OLED screen use to communicate with each other. They use I2C protocol and the ESP32 only talks to the OLED display while the screen only takes in those inputs and displays them. The OLED display can't respond to the ESP32 and can only do as told by the ESP32. I also learned how specific coding has to be and how logical I have to be to be able to code. I learned the interval that the internal clock runs on within the ESP32, and the ESP32 specs, and why its a favorite microcontroller to use. On the other hand, I learned the functions of the software components such as what an API is and how to utilize this component. I learned that the data array can come back as an object, null, int, boolean, etc. Overall, I learned that persevering through issues may not lead to the desired answer but along the way you still will learn something so its still worth it to try.  
 
 
 # Second Milestone
@@ -61,7 +61,7 @@ I need to check if my OLED display works with my ESP32. As a result, I will most
 # Schematics 
  <img src= "Screen Shot 2025-07-11 at 2.30.52 PM.png" width="700" height="">
  
- Schemnatic of my final project 
+ Schematic of my final project 
 
 
 # Bill of Materials
